@@ -1,0 +1,2 @@
+CREATE DATABASE IF NOT EXISTS pandacore;
+GRANT ALL PRIVILEGES ON *.* TO 'hoangbk'@'%';
