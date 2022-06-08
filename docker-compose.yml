@@ -20,7 +20,6 @@ services:
       dockerfile: ./config/webapp/Dockerfile
     volumes:
       - ./src:/var/www/html
-      - ./log/webapp:/var/www/html/app
   node:
     image: node:18
     tty: true
