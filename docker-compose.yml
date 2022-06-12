@@ -20,6 +20,9 @@ services:
       dockerfile: ./config/webapp/Dockerfile
     volumes:
       - ./src:/var/www/html
+      - ./config/webapp/php.ini:/usr/local/etc/php/php.ini
+    depends_on:
+      - database
   node:
     image: node:18
     tty: true
