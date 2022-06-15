@@ -40,4 +40,5 @@ RUN pecl install xdebug \
 
 
 EXPOSE 9000
+EXPOSE 3000
 CMD ["php-fpm"]
